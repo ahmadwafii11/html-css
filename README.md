@@ -28,3 +28,5 @@ Learn HTML Dasar
 27) Inline Frame (tag iframe untuk menampilkan halaman html lain)
 28) Tabel (tag table, tag tr, tag th, tag td, tag caption, tag thead, tag tbody, tag tfoot, tag colgroup, tag col, attribute colspan & attribute rowspan)
 29) Semantic (kumpulan tag semantic yang terdapat pada HTML 5 untuk pengganti tag yang tidak memiliki arti seperti tag div dan tag span. Contoh semantic tag seperti tag article, tag aside, tag figure, tag figurecaption, tag footer, tag header, tag main, tag mark, tag nav, tag section, tag details, tag summary, tag time)
+30) Layout (Menambahkan style CSS di dalam kode HTML)
+31) Responsive (Responsive Element Size dengan style width & height, Responsive Text Size dengan style viewport width)
