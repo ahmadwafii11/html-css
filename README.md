@@ -22,3 +22,9 @@ Learn HTML Dasar
 21) Head (tag head)
 22) Favicon
 23) Block dan Inline (display block dengan tag container div, display inline dengan tag container span)
+24) Video (tag video)
+25) Audio (tag audio)
+26) HTML 5 (format html 5, tulis html:5 nanti autogenerate di vscode)
+27) Inline Frame (tag iframe untuk menampilkan halaman html lain)
+28) Tabel (tag table, tag tr, tag th, tag td, tag caption, tag thead, tag tbody, tag tfoot, tag colgroup, tag col, attribute colspan & attribute rowspan)
+29) Semantic (kumpulan tag semantic yang terdapat pada HTML 5 untuk pengganti tag yang tidak memiliki arti seperti tag div dan tag span. Contoh semantic tag seperti tag article, tag aside, tag figure, tag figurecaption, tag footer, tag header, tag main, tag mark, tag nav, tag section, tag details, tag summary, tag time)
