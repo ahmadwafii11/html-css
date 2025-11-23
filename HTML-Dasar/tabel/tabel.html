@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Tabel HTML Dasar</title>
+</head>
+<body>
+    <h1><b>Belajar Tabel HTML Dasar</b></h1>
+    <br>
+    <table style="border: 1px solid black;">
+        <!-- tag colgroup dan tag col-->
+        <colgroup>
+            <col span="2" style="background-color: aqua;">
+            <col style="background-color: yellow;">
+        </colgroup>
+        <thead>
+            <tr>
+                <!--Penerapan atribut colspan untuk menggabungkan kolom Nama Depan dan Nama Belakang menjadi kolom "Nama"-->
+                <th colspan="2">Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ahmad Wafi</td>
+                <td>Fathurrahman</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Rasmus</td>
+                <td>Hojlund</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>Benjamin</td>
+                <td>Sesko</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <!--Penerapan atribut rowspan untuk menggabungkan dua baris terakhir pada kolom pertama menjadi satu yang bernama "Total"-->
+                <td rowspan="2">Total</td>
+                <td>Total</td>
+                <td>700</td>
+            </tr>
+            <tr>
+                <td>Average</td>
+                <td>233,34</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
