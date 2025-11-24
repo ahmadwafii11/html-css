@@ -30,3 +30,9 @@ Learn HTML Dasar
 29) Semantic (kumpulan tag semantic yang terdapat pada HTML 5 untuk pengganti tag yang tidak memiliki arti seperti tag div dan tag span. Contoh semantic tag seperti tag article, tag aside, tag figure, tag figurecaption, tag footer, tag header, tag main, tag mark, tag nav, tag section, tag details, tag summary, tag time)
 30) Layout (Menambahkan style CSS di dalam kode HTML)
 31) Responsive (Responsive Element Size dengan style width & height, Responsive Text Size dengan style viewport width)
+32) id (penerapan id di html ke style CSS)
+33) Tag Lainnya
+
+# =========================================================================== #
+
+Learn HTML-Form
