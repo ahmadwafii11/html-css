@@ -1,0 +1,28 @@
+                    =========== Input Button ===============
+Membuat tombol tidak hanya bisa menggunakan input type submit atau reset.
+Kita juga dapat menggunakan input type button.
+Namun, menggunakan input button juga tidak terlalu berguna jika hanya menggunakan HTML saja.
+Biasanya, pembuat web akan menambahkan interaksi terhadap tombol tersebut menggunakan kode JavaScript.
+
+Contoh penerapan kode:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML Form - Input Button</title>
+</head>
+<body>
+    <h1><b>Belajar HTML Form - Input Button</b></h1>
+
+    <form>
+        <!--Isi dari tag form-->
+
+        <!--Tag input dengan type=button value=Hello dan sedikit script dari kode JavaScript-->
+        <input type="button" value="Hello" onclick="alert('Hello')">
+        <input type="button" value="World" onclick="alert('World')">
+        <!--Nantinya kode tersebut apabila ditekan akan memunculkan nilai alert Hello-->
+
+    </form>
+</body>
+</html>

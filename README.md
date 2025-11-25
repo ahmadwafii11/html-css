@@ -36,3 +36,14 @@ Learn HTML Dasar
 # =========================================================================== #
 
 Learn HTML-Form
+1) Pengenalan HTML Form
+2) Form Tag (yang dimana terdapat banyak attribute di dalam Tag Form seperti name, action, enctype, method, target, dll.)
+3) Input Tag (Membuat input di dalam sebuah form menggunakan tag input)
+4) Input Text (Salah satu attribute type dari tag input)
+5) Label Tag (Membuat label agar ketika menekan tulisan diatas form input atau judul dari form input tersebut, bisa langsung menuju ke kolom input tersebut)
+6) Input Submit (Salah satu attriibute type dari tag input yang berfungsi untuk mengirimkan data yang dimasukkan oleh pengguna web melalui Form yang tersedia)
+7) Memproses Input (Menggunakan attribute action pada tag form untuk menentukan tujuan dari data yang telah dimasukkan pada kolom input dan method get pada tag form untuk menerima input data dari kolom input di URL browser)
+8) Input Reset (Salah satu attribute type dari tag input, berfungsi untuk mereset nilai yang terdapat di setiap kolom dalam form kembali ke nilai defaultnya)
+9) Input Button (Salah satu attribute type dari tag input, berfungsi untuk berinteraksi dengan kode seperti JavaScript, dll.)
+10) Input Checkbox (Salah satu attribute type dari tag input, berfungsi untuk menerima input data lebih dari satu, namun inputnya sudah disesuaikan)
+11)
