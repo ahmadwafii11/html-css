@@ -65,5 +65,9 @@ Learn HTML-Form
 27) Text Area Tag (tag yang berfungsi untuk input data tipe text yang multi baris, serta attribute cols untuk menentukan panjang input dan attribute rows untuk menentukan tinggi input)
 28) Button Tag ( tag yang berfungsi untuk membuat tombol, serupa dengan input type button, namun yang membedakan adalah pada button tag kita dapat bebas menambahkan isi dari button kayak seperti teks atau gambar)
 29) Select Tag (tag yang berfungsi sebagai alternatif lain jika opsi pilihan data terlalu banyak, yang dimana didalam select tag terdapat attribute seperti type text, namun kita dapat memilih opsi lain seperti type radio, dll.)
-30) Data List Tag (tag yang berfungsi untuk )
-31) Field Set Tag (tag yang berfungsi untuk )
+30) Data List Tag (tag yang berfungsi untuk menambahkan sumber data yang dapat dijadikan sebagai rekomendasi input value,serta autocomplete, semacam rekomendasi di search bar Google)
+31) Field Set Tag (tag yang berfungsi untuk membungkus / grouping beberapa input sehingga lebih mudah untuk dimengerti ketika dilihat oleh si pengguna web, serta legend tag yang berefungsi untuk menambahkan informasi berupa deskripsi / caption group saat menggunakan fieldset tag)
+
+# =========================================================================== #
+
+Learn CSS-Dasar
