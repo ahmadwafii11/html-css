@@ -10,22 +10,48 @@
     
     <!--Tag Form -->
     <form>
-
-        <!--Tag label-->
-        <label for="nama">Nama: </label><br>
-        <!--Tag input untuk label nama-->
-        <input type="text" name="nama" id="nama"><br>
         
-        <!--Tag button dengan type button (untuk mengganti gambar kolom submit)-->
-        <button type="button">
-            <img src="https://interactive-examples.mdn.mozilla.net/media/examples/login-button.png" alt="tombol_submit">
-        </button>
+        <!--Tag label-->
+        <label for="hobyy">My Hobby:</label>
+        
+        <!--Tag Select untuk label hobby-->
+        <select name="hobyy" id="hobby">
 
-        <!--Tag button dengan type reset (untuk mereset semua kolom ke nilai defaultnya)-->
-        <button type="reset">Reset</button>
+            <!--Tag optgroup agar lebih mendetail lagi dalam setiap pilihan data hobby-->
+            <optgroup label="Coding">
+                <!--Tag option untuk beberapa pilihan dalam hobby Coding-->
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="php">PHP</option>
+                <option value="cpp">C++</option>
+                <option value="kotlin">Kotlin</option>
+            </optgroup>
 
-        <!--Tag button dengan type submit (untuk menyimpan semua nilai yang terdapat di setiap kolom)-->
+            <!--Tag optgroup agar lebih mendetail lagi dalam setiap pilihan data hobby-->
+            <optgroup label="Gaming">
+                <!--Tag option untuk beberapa pilihan dalam hobby Gaming-->
+                <option value="dota2">Dota 2</option>
+                <option value="rdr">Read Dead Redemption</option>
+                <option value="fm2024">Football Manager 2024</option>
+                <option value="gow">God of War</option>
+                <option value="wukong">Black Myth: Wukong</option>
+            </optgroup>
+
+            <!--Tag optgroup agar lebih mendetail lagi dalam setiap pilihan data hobby-->
+            <optgroup label="Watching">
+                <!--Tag option untuk beberapa pilihan dalam hobby Gaming-->
+                <option value="aot">Attack on Titan</option>
+                <option value="mha">My Hero Academia</option>
+                <option value="500daysofsummer">(500) days of Summer</option>
+                <option value="spiderman2">The Amazing Spiderman 2</option>
+                <option value="spyxfamily">Spy x Family</option>
+            </optgroup>
+
+        </select>
+
+        <!--Tag button dengan type submit-->
         <button type="submit">Simpan</button>
+
     </form>
 </body>
 </html>
