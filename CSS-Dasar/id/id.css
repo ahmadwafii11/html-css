@@ -1,0 +1,12 @@
+/* ID judul diambil dari HTML tag h1 yang memiliki id=judul */
+#judul {
+    color: yellow;
+    font-size: 50px;
+}  
+
+/* ID isi diambil dari HTML Tag p yang memiliki id=isi */
+
+#isi {
+    color: aqua;
+    font-size: 30px;
+}

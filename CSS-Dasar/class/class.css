@@ -1,0 +1,14 @@
+/*Membuat class red di beberapa tag HTML seperti h1, p*/
+.red {
+    color: red
+}
+
+/*ID judul di tag h1*/
+#judul{
+    font-size: 20px;
+}
+
+/*ID isi di tag p*/
+#isi{
+    font-size: 10px;
+}

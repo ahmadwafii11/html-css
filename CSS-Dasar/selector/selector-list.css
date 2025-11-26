@@ -1,0 +1,29 @@
+/*Selector list pertama untuk warna merah*/
+h1, .merah{
+    color: red;
+}
+
+/*Selector list kedua untuk teks uppercase*/
+h1, h2, .upper{
+    text-transform: uppercase;
+}
+
+/*Selector list ketiga untuk font size 50px*/
+h1, #judul{
+    font-size: 50px;
+}
+
+/*Selector list keempat untuk font size 20px*/
+h2, h3, #subtitle{
+    font-size: 20px;
+}
+
+/*Selector list kelima untuk font size 10px*/
+#isi{
+    font-size: 10px;
+}
+
+/*Selector list keenam untuk warna font aqua*/
+.aqua, #subtitle {
+    color: aqua;
+}
