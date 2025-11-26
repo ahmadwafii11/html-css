@@ -71,3 +71,10 @@ Learn HTML-Form
 # =========================================================================== #
 
 Learn CSS-Dasar
+1) Pengenalan CSS
+2) Menambahkan CSS ke HTML (Terdapat 3 cara, yakni cara internal, eksternal dan inline)
+3) Comment (/* */) (Membuat komentar di CSS)
+4) ID (#) - (Membuat id di CSS)
+5) Class dan Multiple Class (.) - (Membuat class di CSS, berguna untuk mempermudah style di beberapa bagian tag pada HTML)
+6) Selector (,) - (Membuat selector list untuk menyeleksi beberapa element attribute maupun tag di HTML sekaligus)
+7) 
