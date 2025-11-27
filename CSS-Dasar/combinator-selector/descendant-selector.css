@@ -1,0 +1,4 @@
+/*Membuat selector yang dimana untuk tag p yang berada dibawah naungan tag div akan berwarna merah*/
+div p {
+    color: red;
+}

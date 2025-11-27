@@ -1,0 +1,4 @@
+/*Membuat selector untuk memilih semua element tag p yang letaknya setelah tag div.*/
+div ~ p {
+    color: red;
+}

@@ -1,0 +1,4 @@
+/*Membuat selector untuk tag p yang merupakan anakan dari induk langsung tag div (bukan berada di dalam tag lain meskipun tag tersebut berada langsung dibawah tag div)*/
+div > p{
+    color: red;
+}

@@ -1,0 +1,4 @@
+/*Membuat selector untuk memilih element tag p yang letaknya setelah tag div. Namun, letak tag p yang kedua setelah tag div tidak akan dipilih*/
+div + p {
+    color: red;
+}
