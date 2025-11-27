@@ -76,5 +76,6 @@ Learn CSS-Dasar
 3) Comment (/* */) (Membuat komentar di CSS)
 4) ID (#) - (Membuat id di CSS)
 5) Class dan Multiple Class (.) - (Membuat class di CSS, berguna untuk mempermudah style di beberapa bagian tag pada HTML)
-6) Selector (,) - (Membuat selector list untuk menyeleksi beberapa element attribute maupun tag di HTML sekaligus)
-7) 
+6) Selector - (Teradapat beberapa jenis selector seperti id selector (#), class selector(.), selector list(,))
+7) Combinator Selector (terdapat 4 jenis selector yakni descendant selector (space), child selector (>), adjacent sibling selector (+) dan general sibling selector (~))
+8) Attribute Selector ()
