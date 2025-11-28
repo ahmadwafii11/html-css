@@ -78,4 +78,5 @@ Learn CSS-Dasar
 5) Class dan Multiple Class (.) - (Membuat class di CSS, berguna untuk mempermudah style di beberapa bagian tag pada HTML)
 6) Selector - (Teradapat beberapa jenis selector seperti id selector (#), class selector(.), selector list(,))
 7) Combinator Selector (terdapat 4 jenis selector yakni descendant selector (space), child selector (>), adjacent sibling selector (+) dan general sibling selector (~))
-8) Attribute Selector ()
+8) Attribute Selector (Banyak macam attribute selector didalamnya)
+9) 
