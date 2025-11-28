@@ -1,0 +1,4 @@
+/*Membuat selector untuk tag a dengan attribute target akan berubah menjadi warna merah*/
+a[target] {
+    color: red;
+}

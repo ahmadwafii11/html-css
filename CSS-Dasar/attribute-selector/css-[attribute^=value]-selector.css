@@ -1,0 +1,4 @@
+/*Membuat selector untuk tag p dengan attribute title=belajar (artinya semua attribute title dengan kata "belajar" dan title "belajar" diikuti dengan tanda"-", "+", dan karakter lain-lain. (belajar-...)) akan berubah menjadi warna merah. Selain itu, apabila kata "belajar" bukan menjadi kata pertama tidak akan berubah menjadi warna merah*/
+p[title^="belajar"]{
+    color: red;
+}

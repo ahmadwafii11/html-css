@@ -1,0 +1,4 @@
+/*Membuat selector untuk tag p dengan attribute title=belajar (artinya semua attribute title dengan kata "belajar" aja, dan title = "belajar" berada setelah kata lain (letaknya di belakang maupun tengah" akan berubah menjadi warna merah. Selain itu, tidak akan berubah menjadi warna merah*/
+p[title$="belajar"]{
+    color: red;
+}

@@ -1,0 +1,4 @@
+/*Membuat selector untuk tag a dengan attribute target=_blank akan berubah menjadi warna merah. Artinya, selain itu tag a tidak akan berubah warna menjadi merah.*/
+a[target="_blank"] {
+    color: red;
+}
