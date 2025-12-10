@@ -1,0 +1,14 @@
+/*Style color untuk tag h1 menggunakan HEX Code*/
+h1 {
+    color: #9f1ca6;
+}
+
+/*Style color untuk tag h2 menggunakan RGB*/
+h2 {
+    color: rgb(20, 117, 34);
+}
+
+/*Style color untuk tag p menggunakan name color*/
+p {
+    color: salmon;
+}

@@ -1,0 +1,14 @@
+h1{
+    /*Style untuk merubah background color pada tag h1 menggunakan kode HEX*/
+    background-color: #575757;
+}
+
+p{
+    /*Style untuk merubah background color pada tag h1 menggunakan kode color names*/
+    background-color: yellow;
+}
+
+body {
+    /*Style untuk merubah background color pada tag body menggunakan kode color names*/
+    background-color: aqua;
+}

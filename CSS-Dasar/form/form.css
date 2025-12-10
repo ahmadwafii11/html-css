@@ -1,0 +1,36 @@
+/*Style untuk tag input*/
+input{
+    margin: 10px;
+}
+
+/*Style untuk input dengan psudo-classes required*/
+input:required{
+    color: red;
+}
+
+/*Style untuk id username & ppassword*/
+#username, #password{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+/*Style untuk id username & password psudo-classes focus*/
+#username:focus, #password:focus{
+    background-color: black;
+}
+/*Style untuk id login*/
+#login{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*Style untuk id login psudo-classes hover*/
+#login:hover{
+    background-color: black;
+    color: white;
+}

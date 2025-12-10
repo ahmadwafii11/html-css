@@ -1,0 +1,26 @@
+/*Style untuk tag table, tr, th & td*/
+table, tr, th, td {
+    /*Style untuk border garis tepi pada tag table, tr, th & td*/
+    border-style: solid;
+
+    /*Style untuk border ketebalan garis tepi pada tag table, tr, th & td*/
+    border-width: 2px;
+
+    /*Style untuk border menghilangkan jarak antar tag table, tr, th & td ketika bertemu (defaultnya adalah separate)*/
+    border-collapse: collapse;
+}
+
+/*Style untuk tag table*/
+table{
+    /*Style untuk lebar table*/
+    width: 200px;
+
+    /*Style untuk tinggi table*/
+    height: 200px;
+}
+
+/*Style untuk tag th, td*/
+th, td {
+    /*Style untuk mengatur posisi teks pada table*/
+    text-align: center;
+}

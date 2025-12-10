@@ -1,0 +1,15 @@
+h1{
+    /*Mengubah jenis font pada tag h1 dari defaultnya (serif) ke sans-serif*/
+    font-family: sans-serif;
+}
+
+p {
+    /*Mengubah jenis font pada tag p dari defaultnya (serif) ke courier*/
+    font-family: Courier;
+
+    /*Mengubah style pada teks menggunakan properties font-style (kemiringan)*/
+    font-style: italic; /*teks miring*/
+    
+    /*Mengubah style pada teks menggunakan properties font-style (ketebalan)*/
+    font-weight: bold; /*teks tebal*/
+}

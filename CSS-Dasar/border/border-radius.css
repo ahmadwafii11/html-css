@@ -1,0 +1,76 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Style untuk tag div agar tidak terdapat jarak padding dan margin antar tag div*/
+div{
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+}
+
+/*Style untuk tag p agar jarak padding dan marginnya 0px*/
+p{
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+}
+
+/*Style height dan width untuk class artikel 1*/
+.artikel1{
+    height: 200px;
+    background-color: aqua;
+    width: 200px;
+
+    /*Style untuk menambahkan jarak dari content (isi dari tag p) ke border dengan padding 10px*/
+    padding: 20px;
+
+    /*Style untuk mengatur jarak antara tag div satu dengan tag div lainnya menggunakan margin*/
+    margin: 10px;
+
+    /*Style untuk garis border titik-titik*/
+    border-style: dotted;
+
+    /*Style untuk ketebalan garis border titik-titik*/
+    border-width: 5px;
+
+    /*Style untuk border radius*/
+    border-radius: 50px;
+}
+
+/*Style height dan width untuk class artikel 2*/
+.artikel2{
+    height: 150px;
+    width: 300px;
+
+    /*Style untuk menambahkan jarak dari content (isi dari tag p) ke border dengan padding 10px*/
+    padding: 24px 15px 24px 15px; /*style padding manual (atas-kanan-bawah-kiri)*/
+
+    /*Style untuk mengatur jarak antara tag div satu dengan tag div lainnya menggunakan margin*/
+    margin: 24px 15px 24px 15px; /*style margin manual (atas-kanan-bawah-kiri)*/
+    
+    /*Catatan: ketika margin (area terluar dari content) antar tag saling bertemu, diambil margin tertinggi dari suatu tag tersebut. Kenapa? karena margin merupakan area terluar dan transparan sehingga tidak terisi oleh background apapun*/
+
+    /*Style border untuk garis kiri*/
+    border-left-style: solid;
+    border-left-width: 10px;
+
+    /*Style border untuk garis kanan*/
+    border-right-style: solid;
+    border-right-width: 10px;
+
+    /*Style border untuk garis atas*/
+    border-top-style: dotted;
+    border-top-width: 5px;
+
+    /*Style border untuk garis bawah*/
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+
+    /*Style untuk ketebalan garis border*/
+    border-width: 5px 10px 5px 10px; /*style border manual (atas-kanan-bawah-kiri)*/
+
+    /*Style untuk border radius*/
+    border-radius: 30px 0px 30px 0px; /*style border manual (atas kiri- atas kanan - bawah kanan - bawah kiri)*/
+}

@@ -1,0 +1,14 @@
+/*Syle CSS untuk teks rata tengah*/
+h1{
+    text-align: center;
+}
+
+/*Syle CSS untuk teks rata kiri*/
+h2{
+    text-align: left;
+}
+
+/*Syle CSS untuk teks rata kanan kiri*/
+p{
+    text-align: justify;
+}

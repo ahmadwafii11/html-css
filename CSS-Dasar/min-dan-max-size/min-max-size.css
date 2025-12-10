@@ -1,0 +1,12 @@
+/*Style untuk tag div*/
+div{
+    background-color: yellow;
+    /*Style untuk mempertahankan element HTML agar tetap di 75% pada Web Browsernya*/
+    width: 75%;
+
+    /*Style untuk mensetting minimal lebar serta mempertahankan lebar pada tag div hingga 200px*/
+    min-width: 200px;
+
+    /*Style untuk mensetting maksimal lebar serta mempertahankan lebar pada tag div hingga 500px*/
+    max-width: 500px;
+}

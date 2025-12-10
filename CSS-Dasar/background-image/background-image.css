@@ -1,0 +1,17 @@
+/*Style untuk class konten*/
+.konten{
+    /*Style mengambil url image*/
+    background-image: url(image.png);
+
+    /*Style mengambil padding image*/
+    padding: 50px 10px; /*(atas-bawah) (kanan-kiri)*/
+
+    /*Style ukuran besar gambar*/
+    width: 100%;
+
+    /*Style ukuran tinggi gambar*/
+    height: 500px;
+
+    /*Style background image mengulang ke kanan terus*/
+    background-repeat: repeat-x;
+}

@@ -1,0 +1,20 @@
+/*Membuat urutan eksekusi dengan layer*/
+@layer teksA, teksB;
+
+/*Urutannya adalah eksekusi isi dari layer teksA, lalu eksekusi dan timpa (apabila terdapat aturan yang sama di layer teksA) pada layer teksB*/
+
+@layer teksA {
+    img{
+        filter: blur(2px);
+    }
+
+    p{
+        color: yellow;
+    }
+}
+
+@layer teksB{
+    p{
+        color: brown; /*Color brown yang akan tampil di Browser karena sesuai urutan posisi terakhir di layer*/
+    }
+}

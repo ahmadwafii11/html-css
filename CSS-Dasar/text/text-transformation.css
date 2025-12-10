@@ -1,0 +1,35 @@
+h1{
+    /*Syle CSS untuk teks rata tengah*/
+    text-align: center;
+
+    /*Syle CSS untuk teks dekorasi garis bawah*/
+    text-decoration-line: underline;
+
+    /*Syle CSS untuk teks dekorasi warna teks*/
+    text-decoration-color: blue;
+
+    /*Syle CSS untuk teks dekorasi ketebalan garis bawah tulisan*/
+    text-decoration-thickness: 3px;
+
+    /*Syle CSS untuk teks dekorasi style garis bawah solid (garis lurus tidak putus-putus)*/
+    text-decoration-style: solid;
+
+    /*Syle CSS untuk transform teks menjadi capitalize (tiap depan hurufnya per kata akan berubah menjadi kapital("Ini Judul")*/
+    text-transform: capitalize;
+}
+
+h2{
+    /*Syle CSS untuk teks rata kiri*/
+    text-align: left;
+
+    /*Syle CSS untuk transform teks menjadi huruf kapital semua*/
+    text-transform: uppercase;
+}
+
+p{
+    /*Syle CSS untuk teks rata kanan kiri*/
+    text-align: justify;
+
+    /*Syle CSS untuk transform teks menjadi huruf kecil semua*/
+    text-transform: lowercase;
+}

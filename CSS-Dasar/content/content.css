@@ -1,0 +1,15 @@
+/*Style untuk class konten*/
+.konten{
+    /*Style untuk mengubah isi konten menjadi gambar (jadi isi konten dalam HTML akan ditimpa gambar url ini)*/
+    /*content: url(../background-image/image.png);*/
+}
+
+/*Style untuk class konten dengan pseudo-element before*/
+.konten::before {
+    content: "Ahmad"; /*Ini akan menempatkan kalimat "Ahmad" ke sebelum isi konten*/
+}
+
+/*Style untuk class konten dengan pseudo-element after*/
+.konten::after {
+    content: "Wafi"; /*Ini akan menempatkan kalimat "Wafi" ke setelah isi konten*/
+}

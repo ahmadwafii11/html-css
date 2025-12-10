@@ -1,0 +1,11 @@
+img{
+    width: 500px;
+    
+    /*Style filter untuk blur gambar*/
+    filter: blur(2px);
+}
+
+p{
+    /*Style filter untuk blur paragraf*/
+    filter: blur(2px);
+}

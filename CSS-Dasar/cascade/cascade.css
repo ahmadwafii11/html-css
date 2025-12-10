@@ -1,0 +1,12 @@
+/*Merubah default background color white dari Web Browser (User Agent Stylesheet)*/
+body{
+    background-color: yellow; /*Warna backgorund akan berubah menjadi yellow karena posisi akhir User Stylesheet (kita sendiri yang merubahnya di file CSS) akan digunakan di Web Browsernya*/
+}
+
+p{
+    color: brown !important; /*Membuat aturan penting yang dimana semua isi teks dalam tag p akan menjadi brown*/
+}
+
+p {
+    color: black; /*Sehingga, karena brown tadi !important, maka color black disini tidak diindahkan atau dibiarkan saja oleh Web Browser.*/
+}

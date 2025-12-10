@@ -1,0 +1,21 @@
+body{
+    counter-set: judul 0;
+    counter-set: subjudul 0;
+}
+
+h1{
+    counter-increment: judul 1;
+    counter-reset: subjudul;
+}
+
+h2 {
+    counter-increment: subjudul 1;
+}
+
+h1::before{
+    content: counter(judul) ". ";
+}
+
+h2::before {
+    content: counter(judul) "." counter(subjudul) ". ";
+}
