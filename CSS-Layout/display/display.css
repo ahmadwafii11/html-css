@@ -1,0 +1,14 @@
+/*Style untuk class content*/
+.content {
+    /*Style display*/
+    /*Style ini akan membuat konten yang berada di dalam class content menjadi inline, sehingga ketika menambahkan aturan seperti background color dll. tidak akan merubah apapun*/
+    /*display: inline;*/
+
+    /*Berbeda dengan style display yang inline-block, ketika ditambahkan aturan lain seperti background-color dll. masih dapat dirubah.*/
+    display: inline-block;
+
+    background-color: aqua;
+    width: 200px;
+    height: auto; /*Auto akan memngikuti seluruh Box Model dalam class content secara otomatis*/
+
+}
