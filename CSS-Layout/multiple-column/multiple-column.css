@@ -1,0 +1,7 @@
+/*Style untuk class container*/
+.container{
+    column-count: 3; /*Menentukan jumlah kolomnya*/
+    column-width: 200px; /*Kontennya akan dibagi perkolom dnegan ukuran 200px*/
+    column-gap: 20px; /*Mengatur jarak Column*/
+    column-rule: solid blue 6px; /*Mengatur border dari Column*/
+}

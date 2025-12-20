@@ -1,0 +1,27 @@
+/*Style untuk class container*/
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+}
+
+/*Style untuk class content1*/
+.content1{
+    grid-column: 2 / 5; /*Menentukan letak panjang kolom grid item dimulai dari grid 2 - grid 5 */
+    grid-row: 2 / 5; /*Menentukan letak panjang baris grid item dimulai dari grid 2 - grid 5 */
+    background-color: bisque;
+    border: 1px solid black;
+    grid-template-columns: subgrid; /*ukurannya dirubah ke bentuk subgrid*/
+    grid-template-rows: subgrid; /*ukurannya dirubah ke bentuk subgrid*/
+}
+
+/*Style untuk class inner*/
+.innner{
+    background-color: brown;
+    border: 1px solid black;
+    grid-column: 2/5; /*Menentukan letak panjang kolom grid item dimulai dari grid 2 - grid 5 */
+    grid-row: 2/5; /*Menentukan letak panjang baris grid item dimulai dari grid 2 - grid 5 */
+}

@@ -1,0 +1,13 @@
+/*Style untuk class container*/
+.container{
+    background-color: aqua;
+}
+
+/*Style untuk class image*/
+.image{
+    float: right; /*class image akan ditaruh di kanan tulisan artikel*/
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    text-align: center;
+}

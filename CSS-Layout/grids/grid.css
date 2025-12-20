@@ -1,0 +1,17 @@
+/*Style untuk class container*/
+.container{
+    background-color: yellow;
+    height: 500px;
+    padding: 10px;
+    display: grid; /*Style untuk grid container dengan default memmbentuk kolom kebawah*/
+    gap: 10px;
+}
+
+/*Style untuk class content*/
+.content{
+    background-color: aqua;
+    border: 2px solid blue;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+}

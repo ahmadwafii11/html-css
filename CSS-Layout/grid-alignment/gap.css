@@ -1,0 +1,27 @@
+/*Style untuk class container*/
+.container{
+    background-color: aqua;
+    height: 500px;
+    display: grid; /*Style untuk grid container dengan default memmbentuk kolom kebawah*/
+    grid-template-columns: 100px 100px 100px; /*Membuat 3 kolom grid*/
+    grid-template-rows: 100px 100px 100px; /*Membuat 3 baris grid*/
+    gap: 10px 50px; 
+    /*gap untuk baris-kolom*/
+    /*Sebutin satu-satu
+    row-gap: 10px;
+    column-gap: 50px;*/
+}
+
+/*Style untuk class content*/
+.content{
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Style untuk content1*/
+.content1{
+    justify-self: center; /*justify self hanya berdampak untuk salah satu dari grid items/ grid cell*/
+    align-self: center; /*align self hanya berdampak untuk salah satu dari grid items/ grid cell*/
+}

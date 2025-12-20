@@ -1,0 +1,34 @@
+/*Style untuk at-rule media all, untuk aturan css yang senuanya sama, menggunakan at-rule media type all*/ 
+@media all {
+    /*Style class container*/
+    .container {
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    /*Style untuk class content*/
+    .content {
+        background-color: aqua;
+    }
+}
+
+/*Style untuk at-rule media screen, mengatur tampilan media pada layar tertentu*/
+@media screen and (min-width: 10px) and (max-width: 500px) { /*Untuk layar screen yang ukurannya min 10px dan max 500px*/
+    /*Style untuk class container*/
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /*Style untuk class content*/
+    .content{
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 500px) { /*Untuk layar screen yang ukurannya min 500px dan max bebas*/
+    /*Style class container*/
+    .container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

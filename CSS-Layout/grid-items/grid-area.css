@@ -1,0 +1,31 @@
+/*Style untuk class container*/
+.container{
+    display: grid; /*Style untuk grid container dengan default memmbentuk kolom kebawah*/
+    grid-template-columns: 100px auto 100px; /*Membuat 3 kolom grid*/
+    grid-template-rows: 50px auto 100px; /*Membuat 3 baris grid*/
+    grid-template-areas: 
+    "header header header"
+    "content content content"
+    "footer footer footer"; /*Style untuk membuat area grid, menentukan nama area dari grid colom dan row yang telah dibentuk*/
+    /*3 baris 3 kolom*/
+    gap: 10px;
+}
+
+/*Style untuk class header*/
+.header{
+    background-color: aqua;
+    grid-area: header; /*Menentukan atau memilih area grid pada header*/
+}
+
+/*Style untuk class content*/
+.content{
+    background-color: bisque;
+    grid-area: content; /*Menentukan atau memilih area grid pada content*/
+    padding: 10px;
+}
+
+/*Style untuk class footer*/
+.footer{
+    background-color: aqua;
+    grid-area: footer;
+}

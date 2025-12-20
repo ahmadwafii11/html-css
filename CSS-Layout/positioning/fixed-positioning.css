@@ -1,0 +1,17 @@
+/*Style class content*/
+.content {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+/*Style class content2*/
+.content2{
+    background-color: pink;
+    position: fixed; /*Style untuk position fixed, menghapus elemen dari Normal Flow, bahkan tidak terdapat space yang digunakan sama sekali, jadi serupa dengan Absolute Positioning. 
+    yang membedakannya adalah pada Absolute Position ketika di scroll maka elementnya akan mengikuti karena Absolute Position itu parentnya merupakan HTML, sedangkan pada Fixed Position ketika di scroll maka elementnya akan diam ditempat karena parentnya merupakan viewport.*/
+    z-index: -1; /*Konten yang berada di posisi absolute akan berada di z-index -1 atau paling bawah dibandingkan position lainnya*/
+    top: 220px;
+    left: 220px;
+}

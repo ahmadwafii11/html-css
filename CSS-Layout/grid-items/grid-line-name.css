@@ -1,0 +1,15 @@
+/*Style untuk class container*/
+.container{
+    background-color: yellow;
+    display: grid; /*Style untuk grid container dengan default memmbentuk kolom kebawah*/
+    grid-template-columns: [garis-kolom1] 200px [garis-kolom2] auto [garis-kolom3] 200px [garis-kolom4]; /*menentukan 3 kolom grid dengan masing-masing ukurannya disertakan secara berurutan beserta nama line nya*/
+    grid-template-rows: [garis-baris1] 500px [garis-baris2] auto [garis-baris3]; /*menentukan 2 baris grid dengan masing-masing ukurannya disertakan secara berurutan beserta nama line nya*/
+    gap: 10px;
+}
+
+/*Style untuk class content*/
+.content{
+    background-color: aqua;
+    border: 2px solid blue;
+    padding: 10px;
+}

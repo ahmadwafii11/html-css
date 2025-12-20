@@ -1,0 +1,7 @@
+/*Style untuk class sticky*/
+.sticky{
+    background-color: pink;
+    position: sticky; /*style position sticky*/
+    top: 50px;
+    z-index: 1;
+}

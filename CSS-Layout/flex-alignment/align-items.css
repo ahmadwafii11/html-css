@@ -1,0 +1,18 @@
+/*Style untuk class container*/
+.container{
+    background-color: yellow;
+    height: 500px;
+    display: flex;
+    justify-content: center; /*Style untuk flex item agar ke tengah*/
+    align-items: flex-start; /*Style untuk flex item yang berada di dalam Flex Container agar ditarik ke atas semua*/
+}
+
+/*Style untuk class content*/
+.content{
+    background-color: aqua;
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+}

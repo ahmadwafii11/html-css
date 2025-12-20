@@ -1,0 +1,36 @@
+/*Style untuk class container*/
+.container{
+    display: grid; /*Style untuk grid container dengan default memmbentuk kolom kebawah*/
+    grid-template-columns: [garis-kolom1] 100px [garis-kolom2] auto [garis-kolom3] 100px [garis-kolom4]; /*menentukan 3 kolom grid dengan masing-masing ukurannya disertakan secara berurutan beserta nama line nya*/
+    grid-template-rows: [garis-baris1] 50px [garis-baris2] auto [garis-baris3] 50px [garis-baris4]; /*menentukan 2 baris grid dengan masing-masing ukurannya disertakan secara berurutan beserta nama line nya*/
+    gap: 10px;
+}
+
+/*Style untuk class header*/
+.header{
+    background-color: aqua;
+    grid-column-start: garis-kolom1; /*Untuk menentukan letak header dimulai dari garis atau line kolom mana*/
+    grid-column-end: garis-kolom4; /*Untuk menentukan letak header diakhiri dari garis atau line kolom mana*/
+    grid-row-start: garis-baris1; /*Untuk menentukan letak header dimulai dari garis atau line baris mana*/
+    grid-row-end: garis-baris2; /*Untuk menentukan letak header diakhiri dari garis atau line baris mana*/
+}
+
+/*Style untuk class content*/
+.content{
+    background-color: bisque;
+    grid-area: content;
+    grid-column-start: garis-kolom2; /*Untuk menentukan letak content dimulai dari garis atau line kolom mana*/
+    grid-column-end: garis-kolom3; /*Untuk menentukan letak content diakhiri dari garis atau line kolom mana*/
+    grid-row-start: garis-baris2; /*Untuk menentukan letak content dimulai dari garis atau line baris mana*/
+    grid-row-end: garis-baris3; /*Untuk menentukan letak content diakhiri dari garis atau line baris mana*/
+    padding: 10px;
+}
+
+/*Style untuk class footer*/
+.footer{
+    background-color: aqua;
+    grid-column-start: garis-kolom1; /*Untuk menentukan letak footer dimulai dari garis atau line kolom mana*/
+    grid-column-end: garis-kolom4; /*Untuk menentukan letak footer diakhiri dari garis atau line kolom mana*/
+    grid-row-start: garis-baris3; /*Untuk menentukan letak footer dimulai dari garis atau line baris mana*/
+    grid-row-end: garis-baris4; /*Untuk menentukan letak footer diakhiri dari garis atau line baris mana*/
+}

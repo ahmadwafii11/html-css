@@ -1,0 +1,15 @@
+/*Style class content*/
+.content {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+/*Style class content2*/
+.content2{
+    background-color: pink;
+    position: relative; /*Style untuk position relative, yang dimana element akan ditempatkan sesuai Normal Flow. Namun setelah ditempatkan, kita dapat mengubah posisi elemen.*/
+    top: 20px;
+    left: 20px;
+}

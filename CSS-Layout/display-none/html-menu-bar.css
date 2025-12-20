@@ -1,0 +1,44 @@
+/*Style untuk class menubar*/
+.menubar{
+    display: inline-block;
+}
+
+/*Style untuk class menu*/
+.menu{
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/*Style untuk class menulist*/
+.menulist{
+    display: none; /*Untuk menghilangkan class menulist*/
+    position: absolute;
+    background-color: aqua;
+    z-index: 1;
+}
+
+/*Style untuk class menulist a*/
+.menulist a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+/*Style untuk class menulist a:hover*/
+.menulist a:hover{
+    background-color: bisque;
+}
+
+/*Style untuk class menubar:hover .menu*/
+.menubar:hover .menu{
+    background-color: bisque;
+}
+
+/*Style untuk class menubar:hover .menulist*/
+.menubar:hover .menulist{
+    display: block; /*Untuk memunculkan isi dari class menulist apabila button didekati oleh cursor*/
+}

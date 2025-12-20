@@ -1,0 +1,19 @@
+/*Style untuk class container*/
+.container{
+    display: grid;
+    grid-template-columns: 200px repeat(5, 1fr); /*Artinya, 200px ini untuk class sidebar, sisanya merupakan class content yang dimana dia akan diulang ukurannya sebanyak 5kali dengan ukuran 1fr yang mengambil sisa ruang yang telah diambil / diamankan oleh class sidebar yang ukurannya 200px*/
+    column-gap: 10px;
+}
+
+/*Style untuk class sidebar*/
+/*Class ini sudah fix ukurannya 200px*/
+.sidebar{
+    background-color: pink;
+}
+
+
+/*Style untuk class content*/
+/*Class ini ukurannya akan mengambil sisa ruang dari class sidebar, lalu dibagi sebanyak 5fr*/
+.content{
+    background-color: aqua;
+}

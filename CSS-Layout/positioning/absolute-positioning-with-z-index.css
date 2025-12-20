@@ -1,0 +1,17 @@
+/*Style class content*/
+.content {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+/*Style class content2*/
+.content2{
+    background-color: pink;
+    position: absolute; /*Style untuk position absolute, yang merupakan merupakan menghapus elemen dari Normal Flow, bahkan tidak terdapat space yang digunakan sama sekali. 
+    Posisi awal untuk elemen absolute adalah relative ke posisi terdekat dengan elemen sebelumnya, atau jika tidak ada, berarti di awal block element parentnya.*/
+    z-index: -1; /*Konten yang berada di posisi absolute akan berada di z-index -1 atau paling bawah dibandingkan position lainnya*/
+    top: 220px;
+    left: 220px;
+}

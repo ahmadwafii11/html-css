@@ -1,0 +1,20 @@
+/*Style untuk class container*/
+.container{
+    display: flex; /*flex pada class container ini merupakan flex container, yang merupakan indukan dari beberapa flex item*/
+    /*Style column reverse untuk merubah posisi konten dari bawah ke atas dengan nilai yang paling akhir, yang dimana defaultnya row.*/
+    /*flex-direction: column-reverse; */
+    flex-direction: row; /*Flex direcction defaultnya*/
+    flex-wrap: wrap; /*Style agar apabila konten garis horizontalnya pada Flex Item penuh, maka akan kebawah*/
+    background-color: yellow;
+}
+
+/*Style untuk class content*/
+.content{
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid blue;
+    margin: 10px;
+    padding: auto;
+}
+
+/*Disini, class content secara tidak langsung merupakan flex item yang merupakan anakan dari induk flex contaier pada class container*/
